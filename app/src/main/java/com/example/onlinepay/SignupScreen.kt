@@ -13,12 +13,15 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.database
 
+
 //class SignupScreen : AppCompatActivity() {
 //    override fun onCreate(savedInstanceState: Bundle?) {
 //        super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_signup_screen)
 //    }
 //}
+
+
 
 class SignupScreen : AppCompatActivity() {
 
