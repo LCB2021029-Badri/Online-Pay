@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "930320538734",
+    "project_id": "online-pay-35816",
+    "storage_bucket": "online-pay-35816.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930320538734:android:7b49885abe6c9ef5725a7f",
+        "android_client_info": {
+          "package_name": "com.example.onlinepay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0GHyZY475vq2yKFPQmtNXVsNJQw7GdxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
