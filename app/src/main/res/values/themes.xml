@@ -6,4 +6,5 @@
     </style>
 
     <style name="Theme.OnlinePay" parent="Base.Theme.OnlinePay" />
+
 </resources>
