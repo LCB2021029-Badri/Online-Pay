@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.example.onlinepay.activities.LoginScreen
 import com.example.onlinepay.databinding.ActivitySignupScreenBinding
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
@@ -42,7 +43,7 @@ class SignupScreen : AppCompatActivity() {
 
         binding.loginBtn.setOnClickListener {
             startActivity(Intent(this@SignupScreen, LoginScreen::class.java))
-            finish()
+//            finish()
         }
 
         binding.signUpBtn.setOnClickListener {
@@ -95,7 +96,7 @@ class SignupScreen : AppCompatActivity() {
                             Log.d("user Created", "User Created Successfully")
                             saveUserDetail()
                             startActivity(Intent(this@SignupScreen, LoginScreen::class.java))
-                            finish()
+//                            finish()
                             Toast.makeText(this@SignupScreen, "Registered Successfully", Toast.LENGTH_SHORT).show()
                         }else {
                             Toast.makeText(this@SignupScreen, "Password must be same", Toast.LENGTH_SHORT).show()

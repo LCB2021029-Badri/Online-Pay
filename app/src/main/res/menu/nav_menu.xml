@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/home"
-        android:icon="@drawable/notificatio_logo"
+        android:icon="@drawable/ic_home"
         android:title="Home"  />
     <item
         android:id="@+id/payout"
@@ -11,7 +11,7 @@
         android:title="Payout" />
     <item
         android:id="@+id/aeps"
-        android:icon="@drawable/notificatio_logo"
+        android:icon="@drawable/ic_aeps"
         android:title="Aeps" />
     <item
         android:id="@+id/wallet"

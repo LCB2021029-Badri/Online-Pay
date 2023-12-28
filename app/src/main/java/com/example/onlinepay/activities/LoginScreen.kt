@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import com.example.onlinepay.MainActivity
 import com.example.onlinepay.R
+import com.example.onlinepay.activities.SignupScreen
 import com.example.onlinepay.databinding.ActivityLoginScreenBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
@@ -94,7 +95,7 @@ class LoginScreen : AppCompatActivity() {
                         val user = auth.currentUser
                         Log.d("login Success", "signInWithEmail:success")
                         startActivity(Intent(this@LoginScreen, MainActivity::class.java))
-                        finish()
+//                        finish()
                         Toast.makeText(this@LoginScreen, "Welcome!!", Toast.LENGTH_SHORT).show()
                     }
 
@@ -110,6 +111,6 @@ class LoginScreen : AppCompatActivity() {
 
     fun goToSignUp(view: View) {
         startActivity(Intent(this@LoginScreen, SignupScreen::class.java))
-        finish()
+//        finish()
     }
 }
