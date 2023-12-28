@@ -11,16 +11,17 @@
         android:id="@+id/imageView3"
         android:layout_width="371dp"
         android:layout_height="255dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp"
         app:srcCompat="@drawable/aepslogo" />
 
     <Button
         android:id="@+id/button"
+        android:layout_below="@id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="272dp"
+        android:layout_marginHorizontal="20dp"
         android:text="ICICI BANK"
         android:textSize="25sp"
         android:backgroundTint="#F19A2C" />
@@ -29,9 +30,8 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
+        android:layout_below="@id/button"
+        android:layout_marginHorizontal="20dp"
         android:text="FINO BANK"
         android:textStyle="bold"
         android:backgroundTint="#F19A2C"
