@@ -1,4 +1,4 @@
-package com.example.onlinepay
+package com.example.onlinepay.activities
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -9,6 +9,8 @@ import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
+import com.example.onlinepay.MainActivity
+import com.example.onlinepay.R
 import com.example.onlinepay.databinding.ActivityLoginScreenBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount

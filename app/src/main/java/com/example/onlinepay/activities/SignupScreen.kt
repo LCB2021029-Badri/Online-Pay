@@ -1,4 +1,4 @@
-package com.example.onlinepay
+package com.example.onlinepay.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

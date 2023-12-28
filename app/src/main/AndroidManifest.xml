@@ -13,16 +13,22 @@
         android:theme="@style/Theme.OnlinePay"
         tools:targetApi="31">
         <activity
-            android:name=".AEPSActivity"
+            android:name=".activities.WalletActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeScreen"
+            android:name=".activities.PayoutActivity"
             android:exported="false" />
         <activity
-            android:name=".SignupScreen"
+            android:name=".activities.AEPSActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginScreen"
+            android:name=".activities.HomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SignupScreen"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LoginScreen"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
