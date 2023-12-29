@@ -266,7 +266,7 @@
                         android:layout_marginTop="2dp"
                         android:layout_weight="1"
                         android:clickable="true"
-                        android:src="@drawable/thumb_icon" />
+                        android:src="@drawable/thumb_icon_" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -294,7 +294,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_weight="1"
                         android:clickable="true"
-                        android:src="@drawable/thumb_icon" />
+                        android:src="@drawable/thumb_icon_" />
 
                     <TextView
                         android:layout_width="wrap_content"
