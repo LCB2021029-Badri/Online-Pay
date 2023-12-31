@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Online Pay</string>
     <string name="client_id">930320538734-uj4gn0ilhcqhi3kunf2i2t1helq5evul.apps.googleusercontent.com</string>
-    
+
     <string name="reg_id">Registration ID: ONLINEPAY97975</string>
     <string name="coupon_price">Coupon Price Rs. 103</string>
+    <string name="kyc_notice">Complete your E-KYC for ICICI bank BC \n Registration</string>
 </resources>
