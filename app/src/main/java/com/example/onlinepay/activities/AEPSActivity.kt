@@ -15,6 +15,10 @@ class AEPSActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         enableBottomNavView()
+
+        binding.btnIciciBank.setOnClickListener {
+            startActivity(Intent(applicationContext, ICICIBankActivity::class.java))
+        }
     }
 
     private fun enableBottomNavView(){

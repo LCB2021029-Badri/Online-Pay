@@ -5,4 +5,6 @@
     <string name="reg_id">Registration ID: ONLINEPAY97975</string>
     <string name="coupon_price">Coupon Price Rs. 103</string>
     <string name="kyc_notice">Complete your E-KYC for ICICI bank BC \n Registration</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
