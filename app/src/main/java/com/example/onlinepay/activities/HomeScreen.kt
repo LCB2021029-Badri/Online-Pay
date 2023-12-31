@@ -17,9 +17,6 @@ class HomeScreen : AppCompatActivity() {
 
         enableBottomNavView()
 
-//        binding.btnAeps.setOnClickListener {
-//            startActivity(Intent(this@HomeScreen, AEPSActivity::class.java))
-//        }
 
     }
 
