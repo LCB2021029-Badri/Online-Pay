@@ -20,6 +20,11 @@ class HomeScreen : AppCompatActivity() {
             startActivity(Intent(this@HomeScreen, AepsDetailsActvity::class.java))
         }
 
+        binding.ivBBPS.setOnClickListener {
+            startActivity(Intent(this@HomeScreen, BBPSActivity::class.java))
+        }
+
+
 
     }
 
